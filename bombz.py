@@ -36,7 +36,7 @@ for i in range(howmany):
     file_path = os.path.join(folder_path, file_name)
     with open(file_path, 'w') as file:
         txtz = str(foldnames)
-        file.write('HACKED FOLDER BY BOMBZ_INJECTION EZ, GOODBYE ENCODED DIR ' + txtz)
+        file.write('HACKED FOLDER BY BOMBZ_INJECTION EZ, GOODBYE ENCODED DIR ' + txtz) # change skid text if you want
     print(Fore.LIGHTGREEN_EX + f'Folder made - {foldnames} // {i} -\n')
 
 end_time = time.perf_counter()
